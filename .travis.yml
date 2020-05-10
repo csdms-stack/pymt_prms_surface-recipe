@@ -7,7 +7,7 @@ os:
 env:
   global:
     - CONDA_PREFIX=$HOME/conda
-    - MINICONDA_URL_BASE="https://repo.continuum.io/miniconda/Miniconda3-latest"
+    - MINICONDA_URL_BASE="https://repo.anaconda.com/miniconda/Miniconda3-latest"
     - TRAVIS_PYTHON_VERSION="3.*"
     - secure: "E3os6SpzT61M09WLOuKhBXJ2+wC1kl2KKLCIhEIV68xftQ2+ifpiT6/iZBJV1laShoe1fOEZtsEbYldj89sPSYpy0PukRAgzy+MNdxeLGuD7PPIkB8pD7w6fxH7oiFJwQiKMorzqGJZPEINAquNEvGqhUxERHx2y5uIRDlS1gWJdZAZg9DAiDKkt7hCD8EZqlypbLfw58CjFQK4qSNxcXT8aC444925LXepEC0R50Pdh4l5xKLdRt1ecnSAwdLRSK0/q+tnSFduXRCamisHYdM0n+tVJ/THt6/k95+tBMv52vaqC0ogkgn/9YvUXSpSwwdNeqglE6zPO9HO0qmLCfnOeEsLVM3MI4r7+cCw+Vjw8wFRWhthDjDKgQzf2wZluNPzdDGhKDvCxXjFal2c3dIh9FNe4pTA4MtmLzsJJ13Ow6f1Ec8aFM7uPnM9SiQGZ8UlsmcnpryHmGBNQLJyYqOr6WCPqKXBF7Sv7PA4lVIi5y4gCHCu3iNVcEEKBd5s1imA4fpE/lGOG4AI74j0IWu+Ff/91OjV5gy7ZtrnBo0PHUI20rmBdF8TsozoY6KqM96bfk6GCxysinjtriH7DCWm3Is6m395bkl+yhVV1b9y96+ILwYGK1HSCWUN+4TYDPsL0/Y9AKPq6CWi/6DAyeRGcttuTulrX0ovQ9bE/vs4="
 
