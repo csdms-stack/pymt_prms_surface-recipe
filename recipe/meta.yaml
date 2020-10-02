@@ -16,19 +16,20 @@ build:
 
 requirements:
   build:
-    - {{ compiler('c') }}
     - {{ compiler('fortran') }}
+    - libnetcdf
+    - netcdf-fortran
   host:
     - python
-    - pip
     - cython
     - numpy >=1.14
-    - model_metadata
+    - bmi-fortran
     - prms
     - prms_surface
   run:
     - python
     - {{ pin_compatible('numpy') }}
+    - bmi-fortran
     - prms
     - prms_surface
 

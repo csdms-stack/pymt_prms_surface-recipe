@@ -34,12 +34,15 @@ install:
   - export PATH="$CONDA_PREFIX/bin:$PATH"
   - hash -r
   - conda config --set always_yes yes --set changeps1 no
-  - conda install python=$TRAVIS_PYTHON_VERSION -c conda-forge
-  - conda install -q conda-build anaconda-client -c conda-forge
+  - conda config --set channel_priority strict
+  - conda config --add channels csdms-stack
+  - conda config --add channels conda-forge
+  - conda install python=$TRAVIS_PYTHON_VERSION conda-build anaconda-client
+  - conda info -a
 
 script:
-  - conda build ./recipe -c conda-forge -c csdms-stack --old-build-string
+  - conda build ./recipe
 
 after_success:
   - curl https://raw.githubusercontent.com/csdms/ci-tools/master/anaconda_upload.py > $HOME/anaconda_upload.py
-  - echo $ANACONDA_TOKEN | python $HOME/anaconda_upload.py ./recipe --channel=main --org=csdms-stack --old-build-string --token=-
+  - echo $ANACONDA_TOKEN | python $HOME/anaconda_upload.py ./recipe --channel=main --org=csdms-stack --token=-
