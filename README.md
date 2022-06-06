@@ -1,6 +1,7 @@
 [![Anaconda-Server Badge](https://anaconda.org/csdms-stack/pymt_prms_surface/badges/version.svg)](https://anaconda.org/csdms-stack/pymt_prms_surface)
 [![Anaconda-Server Badge](https://anaconda.org/csdms-stack/pymt_prms_surface/badges/platforms.svg)](https://anaconda.org/csdms-stack/pymt_prms_surface)
 [![Anaconda-Server Badge](https://anaconda.org/csdms-stack/pymt_prms_surface/badges/downloads.svg)](https://anaconda.org/csdms-stack/pymt_prms_surface)
+[![Build](https://github.com/csdms-stack/pymt_prms_surface-recipe/actions/workflows/build.yml/badge.svg)](https://github.com/csdms-stack/pymt_prms_surface-recipe/actions/workflows/build.yml)
 
 # pymt_prms_surface-recipe
 
